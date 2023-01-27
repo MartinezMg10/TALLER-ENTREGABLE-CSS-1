@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    cursor: cell;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+tr{
+    border: 1px solid;
+    border-style: dashed;
+}
+
+td{
+    border: 1px solid;
+    border-style: dashed;
+}
+
+tr:hover{
+    background-color: rgba(144,238,144,255);
+    border-style:solid;
+}
+
+th{
+    background-color: rgba(144,193,194,255);
+    border: 1px solid;
+}
